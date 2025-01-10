@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X_UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Manal Suliman</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Manal</a>
+        <nav class="navigation">
+            <a href="#services">services</a>
+            <a href="#project">project</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+
+
+<section class="main">
+    <div>
+        <h2>Hello, I'm Manal<br><span>Web Developer</span></h2>
+        <h3>I can build a website by using HTML, CSS, and Javascript</h3>
+        <a href="#projects" class="main-btn"></a>
+        <div class="Social-Icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+     </div>
+</section>
+
+<section class="cards" id="services">
+    <h2 class="title">services</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-edit"></i>
+          </div>
+            <div class="info">
+                <h3>Script Writing</h3>
+                <p>I can edit your current by adding a new content to make it much better</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="project" id="project">
+    <h2 class="title">project</h2>
+    <div class="content">
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/avion.jpg" />
+            </div>
+            <div class="project-category">script Writing & video production</p>
+                <strong class="project-title">
+                    <span> Dev Books </span> 
+                    <a href="#" class="more-details">More-details</a>
+                </strong>
+            </div>
+        </div>
+    </div>
+
+</section>
+    
+<section class="cards contact" id="contact">
+    <h2 class="title">let's work together </h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-phone"></i>
+          </div>
+        <div class="info">
+           <h3>Phone</h3>
+            <p>+33769030257</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="icon">
+             <i class="fas fa-envelope"></i>
+        </div>
+        <div class="info">
+            <h3>Email</h3>
+            <p>eltoummanal649@gmail.com</p>
+          </div>
+      </div>
+  </div>
+ </section>
+
+<footer class="footer">
+    <p class="footer-title"> Copyrights @ <span>Manal Suliman</span></p>
+    <div class="Social-Icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+</footer>
+
+</body>
+</html>
